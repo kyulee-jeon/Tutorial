@@ -1,15 +1,15 @@
 # Currently, I am studying...
 
-##[DATA]
+**[DATA]**
 - Statistics
 - SQLD
 
-##[DATA SCIENCE]
+**[DATA SCIENCE]**
 - ML/DL
 - Python
 - R
 
-##[TOOL]
+**[TOOL]**
 - OHDSI
 - Github
 - AWS
