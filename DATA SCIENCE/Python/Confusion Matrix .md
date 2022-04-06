@@ -7,10 +7,6 @@
 - Recall (재현율) = TP/(TP+FN) -> FN=0 일 때, Recall = 1
 - F1-Score : Precision과 Recall의 조화평균
 
-![99.png](attachment:99.png)
-(출처: https://blog.naver.com/PostView.nhn?isHttpsRedirect=true&blogId=wideeyed&logNo=221531940245)
-
-
 ```python
 # 실제값 y_label, 예측값 y_pred (1 = positive)
 y_label = [1, 1, 1, 1, 0]
