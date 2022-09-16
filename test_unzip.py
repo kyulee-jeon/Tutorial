@@ -1,3 +1,14 @@
+import zipfile
+
+try:
+    with zipfile.ZipFile("/home/ubuntu/dr-you-ecg-20220420_mount/PTB_XL.zip") as zf:
+        zf.extractall(path = '/home/ubuntu/dr-you-ecg-20220420_mount')
+        print("uncompress success")
+except:
+    print("uncompress fail")
+
+------------------------------------------------------------------------------ 
+
 # -*- coding: utf-8 -*-
 
 """Tests for function unzip() from zipfile module."""
